@@ -15,10 +15,8 @@ public class Example
     internal string InternalProperty = "I am Internal";
 
     // Protected Internal: Accessible within the same assembly or derived classes
-    protected internal string ProtectedInternalProperty = "I am Protected Internal";
 
     // Private Protected: Accessible within the same class or derived classes in the same assembly
-    private protected string PrivateProtectedProperty = "I am Private Protected";
 
     public void ShowAccessModifiers()
     {
